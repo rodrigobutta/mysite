@@ -22,7 +22,7 @@ const MobileNav = ({active, setActive}) => {
           </li>
           <li className="nav-item">
             <NavLink activeClassName="active" className="nav-link text-uppercase text-right font-weight-normal mb-2"
-                  to="/team"><span>Team</span></NavLink>
+                  to="/me"><span>Me</span></NavLink>
           </li>
           <li className="nav-item">
             <NavLink activeClassName="active" className="nav-link text-uppercase text-right font-weight-normal mb-2"

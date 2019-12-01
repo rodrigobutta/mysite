@@ -3,10 +3,10 @@ import Navbar from '../../common/navbar/navbar'
 import Footer from '../../common/footer/footer'
 import PeopleContext from '../../../context/people/people-context'
 import BlogList from '../../common/blog-list/blog-list'
-import TeamMember from '../../common/team-member/team-member'
+import MeMember from '../../common/me-member/me-member'
 import EventsSection from './events-section/events-section'
 
-const Team = () => {
+const Me = () => {
   const peopleContext = useContext(PeopleContext)
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const Team = () => {
       <div className="container">
         <h1 className="mt-8 mb-7 text-center">We make the world better</h1>
 
-        <img src="/assets/img/team/tim-van-der-kuip-1403210-unsplash.jpg" alt="" className="img-fluid mb-5 mb-md-7" />
+        <img src="/assets/img/me/tim-van-der-kuip-1403210-unsplash.jpg" alt="" className="img-fluid mb-5 mb-md-7" />
 
           <section className="motivation text-center mb-5 mb-lg-7">
 
@@ -41,16 +41,16 @@ const Team = () => {
               {loading ? 'Loading...' : (
                 <div className="row justify-content-between text-white">
                   <div className="col-md-4 pt-md-6">
-                    {byron && <TeamMember  person={byron} />}
-                    {tom && <TeamMember person={tom} />}
+                    {byron && <MeMember  person={byron} />}
+                    {tom && <MeMember person={tom} />}
                   </div>
                   <div className="col-md-4">
-                    {robert && <TeamMember person={robert} />}
-                    {lilly && <TeamMember person={lilly} />}
+                    {robert && <MeMember person={robert} />}
+                    {lilly && <MeMember person={lilly} />}
                   </div>
                   <div className="col-md-4 pt-md-7">
-                    {carmen && <TeamMember person={carmen} />}
-                    {jack && <TeamMember person={jack} />}
+                    {carmen && <MeMember person={carmen} />}
+                    {jack && <MeMember person={jack} />}
                   </div>
                 </div>
               )}
@@ -75,4 +75,4 @@ const Team = () => {
 )
 }
 
-export default Team
+export default Me

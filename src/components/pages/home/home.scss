@@ -18,11 +18,16 @@
     padding-top: 4rem;
   }
 
-  > h1 {
+  h1 {
     max-width: 14em;
     font-weight: $headings-font-weight;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  h4.continue{   
+    font-size: 1.75rem;
+    color: $warning;
   }
 }
 

@@ -37,7 +37,7 @@ function Navbar({light}) {
                 <NavLink className="nav-link" to="/projects" activeClassName="active">Projects</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/team" activeClassName="active">Team</NavLink>
+                <NavLink className="nav-link" to="/me" activeClassName="active">Me</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/blog" activeClassName="active">Blog</NavLink>

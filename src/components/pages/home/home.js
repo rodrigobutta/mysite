@@ -9,7 +9,7 @@ import * as Rellax from 'rellax/rellax'
 
 import './home.scss'
 import SecondProject from './second-project/second-project'
-import TeamSection from './team-section/team-section'
+import MeSection from './me-section/me-section'
 import Offer from './offer/offer'
 import Who from './who/who'
 import Footer from '../../common/footer/footer'
@@ -33,7 +33,7 @@ const Home = () => {
 
         <SecondProject />
 
-        <TeamSection />
+        <MeSection />
 
         <Offer />
 

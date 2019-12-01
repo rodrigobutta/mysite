@@ -7,7 +7,7 @@ import Home from './pages/home/home'
 import Blog from './pages/blog/blog'
 import NoMatch from './common/no-match/no-match'
 import BlogPost from './pages/blog-post/blog-post'
-import Team from './pages/team/team'
+import Me from './pages/me/me'
 import Projects from './pages/projects/projects'
 import SingleProject from './pages/single-project/single-project'
 import Contact from './pages/contact/contact'
@@ -28,7 +28,7 @@ const App = () => {
               <Route exact path="/" component={Home}/>
               <Route path="/blog" component={Blog}/>
               <Route path="/post" component={BlogPost}/>
-              <Route path="/team" component={Team}/>
+              <Route path="/me" component={Me}/>
               <Route exact path="/projects" component={Projects}/>
               <Route path="/projects/:slug" component={SingleProject}/>
               <Route path="/contact" component={Contact}/>

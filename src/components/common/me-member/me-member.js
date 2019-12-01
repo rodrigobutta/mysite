@@ -1,9 +1,9 @@
 import React from 'react'
-import './team-member.scss'
+import './me-member.scss'
 
-const TeamMember = ({person: {imgUrl, name, position}}) => {
+const MeMember = ({person: {imgUrl, name, position}}) => {
   return (
-    <div className="team-member">
+    <div className="me-member">
       <img src={imgUrl} alt="" className="img-fluid"/>
       <div>
         <h3>{name}</h3>
@@ -13,4 +13,4 @@ const TeamMember = ({person: {imgUrl, name, position}}) => {
   )
 }
 
-export default TeamMember
+export default MeMember
