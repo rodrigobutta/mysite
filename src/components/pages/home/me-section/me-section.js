@@ -6,7 +6,7 @@ const MeSection = () => {
   const peopleContext = useContext(PeopleContext)
 
   useEffect(() => {
-    peopleContext.getPeople()
+  // peopleContext.getPeople()
   }, [peopleContext])
 
   const findPerson = (items, id) => {
